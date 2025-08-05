@@ -271,27 +271,22 @@ img {
   justify-content: center;
   align-items: center;
 }
-.third-section-social-link-list-item {
-}
-.third-section-social-link-background {
-  width: 40px;
-  height: 40px;
+.third-section-social-link {
+  display: block;
   background-color: #4d5ae5;
   border-radius: 50%;
-  position: relative;
+  width: 40px;
+  height: 40px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.third-section-social-link-background:hover,
-.third-section-social-link-background:focus {
+.third-section-social-link:hover,
+.third-section-social-link:focus {
   background-color: #404bbf;
 }
-.third-section-social-link {
-}
 .third-section-social-icon {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
   fill: #f4f4fd;
 }
 .fourth-section {
